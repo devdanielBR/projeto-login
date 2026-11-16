@@ -8,35 +8,25 @@ Tablet: 768px ate 992px
 Grandes tela: 1200px acima...
 */
 
-@media  screen and (min-width: 768px) and (max-width: 992px) {
-
-    body{
-        background-image: linear-gradient(to top, #49a09d, #82412c);
-    }
-
+@media screen and (min-width: 768px) {
     section#login{
-        width: 90vh;
+        flex-direction: row;
+        width: 90vw;
+    }
+
+    div#imagem,
+    div#formulario{
+        width: 50%;
+        height: 100%;
+    }
+
+    div#imagem{
+        flex-basis: 50%;
     }
 }
 
-    section#login, div#formulario{
-    float: right; 
-    width: 100%;
-}
-
-@media  screen and (min-width: 992px) and (max-width: 1200px) {
-
-        body{
-             background-image: linear-gradient(to top, #49a09d, #82412c); 
-        }
-
-        section#login{
+@media screen and (min-width: 1100px) {
+    section#login{
         width: 990px;
-        
-        }
+    }
 }
-
-        section#login,div#imagem{
-            float: left;
-            width: 50%;
-        }
