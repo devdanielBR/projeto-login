@@ -60,14 +60,40 @@ div#formulario{
     padding: 10px;
 }
 
-div#formulario, h1{
+#formulario, h1{
     text-align: center;
     margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+div, p{
+    padding-top: 15px;
 }
 
 div#formulario{
     font-size: 0.9em
 }
+
+.material-symbols-outlined{
+    background-color: #c3cc0a;
+    color: black;
+    border-radius: 10px;
+    padding-bottom: 10px 10px 10px;
+    font-size: 2em;
+    width: 30px;
+}
+
+.email{
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.senha{
+    border-radius: 10px;
+    padding-top: 10px
+    
+}
+
 
 
 input[type="submit"]{
